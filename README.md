@@ -93,8 +93,7 @@ Q(s,a) = V(s) + (A(s,a) - mean(A(s,a')))
 """
 
 
-### بخش چهارم - Mathematical Foundations
-```markdown
+```
 ### Mathematical Foundations for Sparse Rewards
 
 ```python
@@ -162,7 +161,7 @@ Expert 1200-2000 0.5+ 95%+
 
 ### Test Results (20 Episodes)
 
-```bash
+```
 python scripts/test.py --model checkpoints/final_model.pt --episodes 20
 Model loaded from checkpoints/final_model.pt
 
@@ -218,12 +217,12 @@ Evaluation plot saved to mountaincar_evaluation.png
 
 
 #
-```markdown
+``
 ## 🧪 **Understanding MountainCar: The Sparse Reward Challenge**
 
 ### Why MountainCar is Difficult
 
-```python
+``
 """
 MountainCar Environment Characteristics:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -262,7 +261,7 @@ Our Best: 84 steps → -84 reward ✓ Near optimal!
 """
 
 
-```markdown
+```
 ## 📝 **Abstract**
 
 <div align="justify">
@@ -287,7 +286,7 @@ Our comprehensive evaluation demonstrates that deep reinforcement learning can e
 
 ### Installation
 
-```bash
+```
 
 pip install -r requirements.txt
 
@@ -298,8 +297,8 @@ python scripts/evaluate.py --model checkpoints/final_model.pt --episodes 100
 tensorboard --logdir logs/
 
 
-### بخش نهم - Project Structure و انتها
-```markdown
+
+```
 ## 📁 **Project Structure**
 
 mountaincar_rl/
@@ -329,7 +328,7 @@ mountaincar_rl/
 
 ## 📊 **Configuration Highlights**
 
-```yaml
+```
 # Key hyperparameters for sparse reward success
 environment:
   num_envs: 8                      # 8x parallel training
