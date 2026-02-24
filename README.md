@@ -1,21 +1,23 @@
 🏔️ MountainCar DQN Project
 Solving Sparse Reward Problems with Deep Reinforcement Learning
-<div align="center">
+
 https://img.shields.io/badge/Python-3.8%252B-blue?style=for-the-badge&logo=python
 https://img.shields.io/badge/PyTorch-2.0%252B-red?style=for-the-badge&logo=pytorch
 https://img.shields.io/badge/Gymnasium-0.29%252B-green?style=for-the-badge
 https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge
 https://img.shields.io/badge/Success%2520Rate-99.8%2525-brightgreen?style=for-the-badge
 
-</div>
+
 👥 Team Members
 <div align="center">
 Mohammad Reza Cov Andish	Seyed Ali Fayez Hosseini
 Reinforcement Learning Specialist	Reinforcement Learning Specialist
 Deep Learning & Neural Networks Expert	DQN Algorithm Expert
 Lead AI Researcher	RL Algorithm Engineer
-</div>
+
+
 📊 Technical Contributions
+
 Mohammad Reza Cov Andish - Reinforcement Learning & Deep Learning Specialist
 Contribution Area	Details
 🧬 Neural Network Architecture for Sparse Rewards	• Designed Dueling DQN architecture with [256, 256, 128] layers for better value estimation
