@@ -259,7 +259,7 @@ Our Best: 84 steps → -84 reward ✓ Near optimal!
 """
 
 
-```
+```marked
 ## 📝 **Abstract**
 
 <div align="justify">
@@ -284,7 +284,7 @@ Our comprehensive evaluation demonstrates that deep reinforcement learning can e
 
 ### Installation
 
-```
+```marked
 
 pip install -r requirements.txt
 
@@ -296,7 +296,7 @@ tensorboard --logdir logs/
 
 
 
-```
+```marked
 ## 📁 **Project Structure**
 
 mountaincar_rl/
@@ -326,7 +326,7 @@ mountaincar_rl/
 
 ## 📊 **Configuration Highlights**
 
-```
+```marked
 # Key hyperparameters for sparse reward success
 environment:
   num_envs: 8                      # 8x parallel training
