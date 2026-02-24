@@ -157,18 +157,15 @@ Expert 1200-2000 0.5+ 95%+
 | **Best Reward** | **-84** | **Near optimal (80-85 theoretical max)** |
 
 
-## 🏆 **Final Evaluation Results**
+🏆 Final Evaluation Results
+Test Results (20 Episodes)
 
-### Test Results (20 Episodes)
-
-```
 python scripts/test.py --model checkpoints/final_model.pt --episodes 20
 Model loaded from checkpoints/final_model.pt
 
 Testing model for 20 episodes...
 Episode 1: Reward = -152.00, Max Pos = 0.536, Goal = ✓
 Episode 2: Reward = -151.00, Max Pos = 0.506, Goal = ✓
-Episode 3: Reward = -101.00, Max Pos = 0.503, Goal = ✓
 ...
 Episode 20: Reward = -105.00, Max Pos = 0.504, Goal = ✓
 
@@ -195,6 +192,7 @@ Step 149 | Position: 0.531 | Velocity: 0.041 | Action: None | Reward: -149.00 �
 
 Episode 3/5
 Step  88 | Position: 0.502 | Velocity: 0.021 | Action: Right | Reward: -88.00 ✓
+
 
 Comprehensive Evaluation (1000 Episodes):
 
